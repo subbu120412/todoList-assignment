@@ -1,0 +1,11 @@
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+  "id": 7,
+  "todo": "subbu Event",
+  "priority": "HIGH",
+  "status": "DONE",
+  "category": "HOME",
+  "dueDate": "2032-02-22"
+}
